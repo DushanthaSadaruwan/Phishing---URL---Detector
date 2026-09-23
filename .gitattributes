@@ -1,0 +1,12 @@
+LFS filter=lfs diff=lfs merge=lfs -text
+and filter=lfs diff=lfs merge=lfs -text
+add filter=lfs diff=lfs merge=lfs -text
+model
+git[[:space:]]push[[:space:]]-u[[:space:]]origin[[:space:]]main
+git[[:space:]]commit[[:space:]]-m[[:space:]]Configure filter=lfs diff=lfs merge=lfs -text
+model filter=lfs diff=lfs merge=lfs -text
+phishing_url_detector.pkl filter=lfs diff=lfs merge=lfs -text
+git[[:space:]]add[[:space:]].gitattributes
+git[[:space:]]add[[:space:]]phishing_url_detector.pkl
+git[[:space:]]commit[[:space:]]-m[[:space:]] filter=lfs diff=lfs merge=lfs -text
+Configure filter=lfs diff=lfs merge=lfs -text
